@@ -1,0 +1,42 @@
+:root {
+  --primary-text-color: #212121;
+  --text-color: #757575;
+  --accent-color: #2196f3;
+  --h3-color: #ffffff;
+  --bg-secondary-color: #f5f4fa;
+}
+.list {
+  padding: 0px;
+  margin: 0px;
+
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: var(--primary-text-color);
+}
+
+address {
+  font-style: inherit;
+}
+
+/* Скрывает абсолютно, даже от читалок */
+/* .is-hidden {
+  display: none;
+} */
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+  outline: 3px solid blueviolet;
+}
+
+img {
+  display: block;
+}
